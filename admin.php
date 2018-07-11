@@ -116,10 +116,6 @@
                     <input type="number" class="right" name="exchange-eur" value="<?= json_decode(file_get_contents('constants.json'))->exchange->eur; ?>">
                 </div>
                 <div class="style">
-                    <span>1$ equals (CAD)</span>
-                    <input type="number" class="right" name="exchange-cad" value="<?= json_decode(file_get_contents('constants.json'))->exchange->cad; ?>">
-                </div>
-                <div class="style">
                     <span>Bacground color</span>
                     <input type="color" class="right" name="background-color" value="<?= json_decode(file_get_contents('constants.json'))->color->background ?>">
                 </div>
@@ -317,7 +313,6 @@
             {name: "UK", code: "gb"},
             {name: "Ireland", code: "ie"},
             {name: "Canada", code: "ca"},
-            {name: "Belgium", code: "be"}
         ].map(function(country, i){
             return '<option value="' + country.code + '">' + country.name + '</option>';
         });
