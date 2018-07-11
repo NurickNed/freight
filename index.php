@@ -279,8 +279,7 @@
             {name: "United States", code: "us"},
             {name: "Nigeria", code: "ng"},
             {name: "UK", code: "gb"},
-            {name: "Ireland", code: "ie"},
-            {name: "Canada", code: "ca"}
+            {name: "Ireland", code: "ie"}
         ].map(function(country, i){
             return '<option value="' + country.code + '">' + country.name + '</option>';
         });
