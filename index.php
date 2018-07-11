@@ -24,6 +24,7 @@
                         <option value="NGN">NGN - Naira</option>
                         <option value="GBP">GBP - British pound</option>
                         <option value="EUR">EUR - Euro</option>
+                        <option value="CAD">CAD - Canadian dollar</option>
                     </select>
                 </div>
             </div>
@@ -279,7 +280,9 @@
             {name: "United States", code: "us"},
             {name: "Nigeria", code: "ng"},
             {name: "UK", code: "gb"},
-            {name: "Ireland", code: "ie"}
+            {name: "Ireland", code: "ie"},
+            {name: "Canada", code: "ca"},
+            {name: "Belgium", code: "be"}
         ].map(function(country, i){
             return '<option value="' + country.code + '">' + country.name + '</option>';
         });
